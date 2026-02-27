@@ -35,7 +35,7 @@
 |---------------|-------|
 | Parameters | 8B |
 | Type | Generative |
-| Base Model | Qwen3-8B |
+| Base Model | 8B dense transformer |
 | Context Length | 32,768 tokens |
 | Languages | 119 |
 | Latency | ~120ms |
@@ -123,9 +123,9 @@ Apache 2.0
 }
 ```
 
-## Based On
+## Architecture
 
-Built upon [Qwen3Guard-Gen-8B](https://huggingface.co/Qwen/Qwen3Guard-Gen-8B).
+Zen Guard Gen is an 8B-parameter generative safety moderation model with Zen identity fine-tuning. It supports prompt moderation, response moderation, and refusal detection across 119 languages.
 
 ---
 
